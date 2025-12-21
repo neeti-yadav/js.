@@ -12,4 +12,30 @@
        
 // }
 
-let obj=
+// let rice = {
+//     quanity: "500gm",
+//     color: "brown"
+// }
+// console.log(rice.color);
+
+ function romwo() {
+    if(  null|| true){
+        let a=;
+        console.log("a value", --a);
+
+        console.log("value",a--);
+        console.log("valuw", ++a);
+        console.log("value",a);
+        
+        
+        
+        
+console.log("enter");
+if(!false|| false){
+    console.log("inside false");
+    
+}
+
+}
+}
+romwo()

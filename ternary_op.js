@@ -6,5 +6,4 @@ if(age>=18){
     console.log("no vote");
     
 }
-
 let temp=(age>=18)? console.log("i can vote"):console.log("no vote");

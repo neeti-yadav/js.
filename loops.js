@@ -25,7 +25,7 @@ while(j<6){
 
 
 console.log("-------------------------------");
-console.log("Do While Loop");
+console.log("do While Loop");
 console.log("-------------------------------");
 
 

@@ -85,5 +85,7 @@ let returningTypeFunction=function (a,b){
 
 
  let numberReturn=function(number){
-    return number
+    return number;
  }
+ let numberValue=numberReturn("21")
+ console.log("number is = ", numberValue);

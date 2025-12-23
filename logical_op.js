@@ -12,4 +12,14 @@
        
 // }
 
-let obj=
+
+// let rice = {
+//     quanity: "500gm",
+//     color: "brown"
+// }
+// console.log(rice.color);
+
+
+
+
+

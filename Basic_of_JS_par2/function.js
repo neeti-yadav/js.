@@ -56,7 +56,6 @@ areaOfRec(Rectangle.length,Rectangle.breadth)
 
 
 
-
 areaOfPara=(n,m)=>{
     // console.log("area of para =" ,2*(n+m));
 }

@@ -55,8 +55,6 @@ let areaOfRec=(l,b)=>{
 areaOfRec(Rectangle.length,Rectangle.breadth)
 
 
-
-
 areaOfPara=(n,m)=>{
     // console.log("area of para =" ,2*(n+m));
 }
@@ -73,7 +71,6 @@ let returningTypeFunction=function (a,b){
  let value= returningTypeFunction(2,1)
 
  console.log("values is => ", value);
-
 
 
  let stringReturn=function (str) {

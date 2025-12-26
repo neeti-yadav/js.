@@ -47,7 +47,6 @@ areaOfCircle(3)
 
 
 
-
 let areaOfRec=(l,b)=>{
     // console.log("area of  rec = " ,l*b);
 

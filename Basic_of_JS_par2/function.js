@@ -132,3 +132,17 @@
 // }
 // divide(a,b)
 
+
+
+let m=2,n=7
+
+function sum(m,n){
+    console.log("sum is",m+n);
+}
+sum(m,n)
+
+
+let multiply=()=>{
+    console.log("multiply is in arrow function",m*n);
+}
+multiply(m,n)

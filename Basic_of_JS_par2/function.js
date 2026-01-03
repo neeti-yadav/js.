@@ -134,15 +134,33 @@
 
 
 
-let m=2,n=7
+// let m=2,n=7
 
-function sum(m,n){
-    console.log("sum is",m+n);
+// function sum(m,n){
+//     console.log("sum is",m+n);
+// }
+// sum(m,n)
+
+
+// let multiply=()=>{
+//     console.log("multiply is in arrow function",m*n);
+// }
+// multiply(m,n)
+let apiData=null;
+function nam(apiData) {
+
+    console.log("*****APIDAAA",apiData);
+    
+    if(!apiData){
+
+        console.log("error it is empty", apiData);
+        
+    }
+
+
 }
-sum(m,n)
+nam(apiData)
 
 
-let multiply=()=>{
-    console.log("multiply is in arrow function",m*n);
-}
-multiply(m,n)
+
+

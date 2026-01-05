@@ -161,6 +161,3 @@ function nam(apiData) {
 }
 nam(apiData)
 
-
-
-

@@ -58,34 +58,60 @@
 //constructor function -> Pascal Notation -> first letter  of every word is capital
 //constructor function -> prop/methods -> intialise/define
 
-function Rectangle(length,breadth){
-    this.length = length;
-    this.breadth = breadth;
-    this.draw = function(){
-        console.log("drawing");
-    }
-}
-
-//object creation in constructor function
-
-let rectangleObject = new Rectangle(4,6);
-
-rectangleObject.color = "yellow";
-console.log(rectangleObject);
-
-delete rectangleObject.color;
-console.log(rectangleObject);
+// function Rectangle(length,breadth){
+//     this.length = length;
+//     this.breadth = breadth;
+//     this.draw = function(){
+//         console.log("drawing");
+//     }
+// }
 
 
-let Rectangle1 = new Function(
-    "length","breadth",
-    `this.length = length;
-    this.breadth = bredth;
-    this.draw = function(){
-    console.log("drawing");
-    }`
-);
 
-//object creation using Rectangle1 
-let rect = new Rectangle(2);
-console.log(rect);
+// //object creation in constructor function
+
+// let rectangleObject = new Rectangle(4,6);
+
+// rectangleObject.color = "yellow";
+// console.log(rectangleObject);
+
+// delete rectangleObject.color;
+// console.log(rectangleObject);
+
+
+// let Rectangle1 = new Function(
+//     "length","breadth",
+//     `this.length = length;
+//     this.breadth = bredth;
+//     this.draw = function(){
+//     console.log("drawing");
+//     }`
+// );
+
+// //object creation using Rectangle1 
+// let rect = new Rectangle(2);
+// rect.length;
+// console.log(rect);
+
+
+// let a=10;
+// let b=a;
+
+// a++;
+// console.log(a);
+// console.log(b);
+
+
+// let a = {value:10};
+// let b = a;
+// a.value++;
+// console.log(a.value);
+// console.log(b.value);
+
+
+
+let a = {value:10};
+let b = a;
+a.value++;
+console.log(a.value);
+console.log(b.value);
